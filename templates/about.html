@@ -1,0 +1,86 @@
+{% extends "base.html" %} {% block content %}
+
+<!-- Hero Section -->
+
+<!-- About Us Section -->
+<section class="py-20 bg-blue-600 text-white">
+  <div class="container mx-auto text-center">
+    <h2 class="text-5xl font-extrabold mb-6">About Us</h2>
+    <p class="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">We specialize in creating advanced steganography solutions that empower individuals and organizations to securely hide and retrieve sensitive information within images. With a commitment to innovation and security, our platform ensures your data remains protected and confidential.</p>
+  </div>
+</section>
+
+<!-- Our Mission Section -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto">
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 px-6 mb-8 md:mb-0">
+        <h3 class="text-4xl font-bold text-gray-800 mb-4">Our Mission</h3>
+        <p class="text-gray-700 text-lg leading-relaxed">Our mission is to provide a secure, efficient, and innovative approach to steganography. By leveraging cutting-edge technology, we aim to make the process of embedding and retrieving hidden information seamless, accessible, and trustworthy for all users.</p>
+      </div>
+      <div class="md:w-1/2 flex px-6">
+        <img src="/images/ourmission.jpeg" alt="Mission Graphic" class="rounded-lg w-3/4 shadow-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-20 bg-gradient-to-r from-gray-800 to-gray-900 text-white px-5">
+  <div class="container mx-auto text-center">
+    <h2 class="text-5xl font-extrabold mb-6 text-blue-600">Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-700 p-8 rounded-lg shadow-lg">
+        <h3 class="text-3xl font-bold mb-4">Top-Notch Security</h3>
+        <p class="text-lg">Your data remains safe with us, protected by state-of-the-art encryption and security measures.</p>
+      </div>
+      <div class="bg-gray-700 p-8 rounded-lg shadow-lg">
+        <h3 class="text-3xl font-bold mb-4">Intuitive Interface</h3>
+        <p class="text-lg">Enjoy a streamlined and user-friendly design that simplifies steganography for beginners and experts alike.</p>
+      </div>
+      <div class="bg-gray-700 p-8 rounded-lg shadow-lg">
+        <h3 class="text-3xl font-bold mb-4">Lightning-Fast Performance</h3>
+        <p class="text-lg">Embed and retrieve hidden information in seconds, without compromising quality or security.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-20 bg-gray-100">
+  <div class="container mx-auto">
+    <h2 class="text-5xl font-extrabold text-center mb-6">How It Works</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div class="text-center md:text-left px-6">
+        <p class="text-gray-700 text-lg leading-relaxed">Our platform employs advanced algorithms to seamlessly embed hidden data into images. The process involves encryption and precise pixel-level modifications that are imperceptible to the human eye, ensuring secure and undetectable information storage.</p>
+      </div>
+      <div class="px-6">
+        <img src="/images/howitworks1.jpeg" alt="How It Works" class="rounded-lg w-full shadow-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FAQ Section -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto">
+    <h2 class="text-5xl font-extrabold text-center mb-6">FAQs</h2>
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+        <h3 class="text-2xl font-bold mb-2">What is steganography?</h3>
+        <p class="text-gray-700">Steganography is the practice of concealing information within non-secret data, such as images, making it undetectable to the naked eye.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+        <h3 class="text-2xl font-bold mb-2">How secure is the tool?</h3>
+        <p class="text-gray-700">We use advanced encryption and steganographic techniques to ensure your data is highly secure and tamper-proof.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <h3 class="text-2xl font-bold mb-2">How do I get started?</h3>
+        <p class="text-gray-700">Simply upload an image, input the text you want to hide, and let our tool do the rest. Retrieving hidden data is just as easy and quick.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
