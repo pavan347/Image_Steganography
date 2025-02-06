@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#SetUp Intructions
+SETUP.md
+
 # Distribution / packaging
 .Python
 build/

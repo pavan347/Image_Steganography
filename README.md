@@ -1,47 +1,11 @@
 # Image Steganography
-
-This project demonstrates image steganography, a technique for hiding information within an image.
+Image steganography is used to securely transmit sensitive information by embedding it within an image file. This method ensures that the presence of the hidden data is not easily detectable to the naked eye. This project provides a simple implementation of image steganography using Python.
 
 ## Features
 
 - Hide text within an image
 - Extract hidden text from an image
 - Support for various image formats
-
-
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/pavan347/Image_Steganography.git
-    ```
-
-2. Navigate to the project directory:
-    ```sh
-    cd Final-Year-Projects/Image-Steganography
-    ```
-
-3. Create a virtual environment:
-    ```sh
-    python -m venv env
-    ```
-
-4. Activate the virtual environment on Windows:
-    ```sh
-    .\env\Scripts\activate
-    ```
-
-5. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. Run the application:
-    ```sh
-    python app.py
-    ```
 
 ## Contributing
 
