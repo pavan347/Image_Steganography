@@ -9,6 +9,12 @@ __pycache__/
 #SetUp Intructions
 SETUP.md
 
+# Project Files
+static
+templates
+uploads
+app.py
+
 # Distribution / packaging
 .Python
 build/

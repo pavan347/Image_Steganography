@@ -15,7 +15,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 Watch the demo video to see the project in action:
 
-[![Demo Video](./static/images/Demo_Video_Thumnail.png)](./static/Image_Stegonography_Demo.mp4)
+[![Demo Video](./Demo_Video_Thumnail.png)](./Image_Stegonography_Demo.mp4)
 
 
 ## Contact
